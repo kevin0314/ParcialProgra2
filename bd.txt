@@ -1,0 +1,17 @@
+CREATE DATABASE  IF NOT EXISTS `parcial2` ;
+USE `parcial2`;
+SET GLOBAL TIME_ZONE='-6:00';
+
+CREATE TABLE `usuariop` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(50) DEFAULT NULL,
+  `Contrasenia` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
+
+CREATE TABLE `consultasp` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `Nombre` varchar(50) DEFAULT NULL,
+  `Apellido` varchar(50) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+);
